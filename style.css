@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
 
+/* ! common style  */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
+
+/* ! Header Style start */
+
 header {
   background: rgba(255, 144, 14, 0.1);
   width: auto;
@@ -15,13 +20,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
 .title-text {
-  font-size: 2.8125rem;
+  font-size: 2vw;
   font-weight: 700;
   color: #131313;
   cursor: pointer;
+  margin: 8px 0px;
 }
 .nav-menu ul {
   display: flex;
@@ -37,32 +42,84 @@ header {
 }
 .text-container {
   margin: 0 auto;
-  width: 800px;
+  width: 850px;
   text-align: center;
   padding: 50px 0px;
 }
 .banner-title {
-  font-size: 4rem;
+  font-size: 3vw;
   font-weight: 700;
   color: #131313;
+  padding-bottom: 10px;
 }
 .text-style {
-    color: #727272;
-    font-size: 1rem;
-    font-weight: 400;
+  color: #727272;
+  font-size: 1vw;
+  font-weight: 400;
 }
-.primary-btn{
- padding: 1.2rem 2rem;
- margin-top: 1rem;
- border-radius: 0.5rem;
-background: #FF900E;
-border: none;
-font-weight: 400;
-color: #fff;
 
+.primary-btn {
+  padding: 1.5vw 3vh;
+  margin-top: 16px;
+  border-radius: 0.5rem;
+  background: #ff900e;
+  border: none;
+  font-weight: 400;
+  color: #fff;
 }
 
 .banner img {
-    width: 100%;
-    margin-top: 50px;
+  width: 100%;
+}
+
+/* ! Section One  style start */
+
+.team-container {
+  padding: 50px 200px;
+  display: flex;
+  gap: 30px;
+}
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.team-text-container {
+  align-self: center;
+}
+
+/* ! Responsive style start here */
+
+@media only screen and (max-width: 576px) {
+  header {
+    padding: 10px 10px;
+  }
+
+  .header-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-container {
+    margin: 0 auto;
+    width: auto;
+    text-align: center;
+    padding: 50px 0px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  header {
+    padding: 10px 10px;
+  }
+
+  .header-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-container {
+    margin: 0 auto;
+    width: auto;
+    text-align: center;
+    padding: 5px;
+  }
 }
