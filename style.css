@@ -230,7 +230,7 @@ main {
 
   .header-nav,
   .team-container,
-  .features-container {
+  .features-container{
     display: flex;
     flex-direction: column;
   }
@@ -273,17 +273,13 @@ main {
     margin-top: 0vh;
     max-width: 10vw;
   }
-
-
   .facts-icon-container{
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
   }
 
-  
+
 
   .sponsor-icon{
     display: flex;
@@ -345,4 +341,10 @@ main {
   .feature-image img {
     width: 100%;
   }
+  .facts-icon-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 }
