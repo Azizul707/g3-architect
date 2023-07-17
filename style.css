@@ -157,6 +157,56 @@ main {
 
 
 
+/* ! Facts styles start */
+
+
+
+.some-facts{
+  margin: 15px;
+}
+
+
+
+.facts-icon-container{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.facts-icon{
+  color: #424242;
+  margin-top: 30px;
+  padding: 15px;
+  width: max-content;
+  text-align: center; 
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+}
+
+
+/* ! Sponsors styles start */
+
+
+.sponsor-containre{
+  margin-top: 150px;
+  text-align: center;
+  padding: 20px;
+
+  
+}
+
+
+.sponsor-icon{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
 /* ! Responsive style start here */
 
 @media only screen and (max-width: 576px) {
@@ -208,6 +258,17 @@ main {
     display: inline;
     margin-top: 0vh;
     max-width: 10vw;
+  }
+  .sponsor-icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+
+  .sponsor-icon img{
+    padding: 20px;
+
   }
 }
 
