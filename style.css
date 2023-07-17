@@ -207,6 +207,20 @@ main {
 
 
 
+/* ! Footer styles start */
+
+
+.footer-container{
+  margin: 10px auto;
+  max-width: 70vw;
+  padding: 30px 0px;
+  text-align: center;
+  background-color:rgba(255, 144, 14, 0.10);
+}
+
+
+
+
 /* ! Responsive style start here */
 
 @media only screen and (max-width: 576px) {
@@ -269,6 +283,11 @@ main {
   .sponsor-icon img{
     padding: 20px;
 
+  }
+
+
+  .footer-container{
+    margin: 0px auto;
   }
 }
 
