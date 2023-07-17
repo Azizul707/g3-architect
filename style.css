@@ -273,6 +273,18 @@ main {
     margin-top: 0vh;
     max-width: 10vw;
   }
+
+
+  .facts-icon-container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+  }
+
+  
+
   .sponsor-icon{
     display: flex;
     flex-wrap: wrap;
