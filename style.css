@@ -253,6 +253,9 @@ main {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+  .team-container img{
+    width: 100%;
+  }
 
 
   .features-container {
